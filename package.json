@@ -1,0 +1,27 @@
+{
+  "name": "seneca_base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+  "type": "git",
+    "url": "git+https://github.com/AVI-ON/seneca_base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AVI-ON/seneca_base/issues"
+  },
+  "homepage": "https://github.com/AVI-ON/seneca_base#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "path": "^0.12.7",
+    "rollbar": "^0.6.2",
+    "seneca": "^3.0.0",
+    "seneca-balance-client": "^0.6.0",
+    "seneca-mesh": "^0.9.0"
+  }
+}
